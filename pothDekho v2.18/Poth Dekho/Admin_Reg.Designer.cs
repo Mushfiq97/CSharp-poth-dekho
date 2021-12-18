@@ -63,6 +63,7 @@ namespace Poth_Dekho
             this.linkLabel1.TabIndex = 34;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Sign in";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label2
             // 
@@ -82,7 +83,7 @@ namespace Poth_Dekho
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button2.Location = new System.Drawing.Point(189, 406);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(76, 31);
             this.button2.TabIndex = 32;
@@ -96,7 +97,7 @@ namespace Poth_Dekho
             this.checkBox1.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.checkBox1.Location = new System.Drawing.Point(220, 375);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(110, 19);
             this.checkBox1.TabIndex = 31;
@@ -106,7 +107,7 @@ namespace Poth_Dekho
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(220, 180);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(192, 28);
@@ -115,7 +116,7 @@ namespace Poth_Dekho
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(220, 216);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(192, 28);
@@ -124,7 +125,7 @@ namespace Poth_Dekho
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(220, 252);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(192, 28);
@@ -133,7 +134,7 @@ namespace Poth_Dekho
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(220, 287);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(192, 28);
@@ -142,7 +143,7 @@ namespace Poth_Dekho
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(220, 321);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(192, 28);
@@ -215,7 +216,7 @@ namespace Poth_Dekho
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button1.Location = new System.Drawing.Point(168, 117);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(74, 25);
             this.button1.TabIndex = 20;
@@ -227,7 +228,7 @@ namespace Poth_Dekho
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Location = new System.Drawing.Point(59, 46);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(105, 96);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -250,7 +251,7 @@ namespace Poth_Dekho
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(442, 72);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(371, 341);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -281,7 +282,7 @@ namespace Poth_Dekho
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Admin_Reg";
             this.Text = "Admin_Reg";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

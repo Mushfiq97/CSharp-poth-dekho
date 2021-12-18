@@ -46,5 +46,21 @@ namespace Poth_Dekho
             admin_view_profile f = new admin_view_profile(username);
             f.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            username = "";
+            admin_login f = new admin_login();
+            f.Show();
+        }
+
+        private void btnTourGuide_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            
+            admin_guide_information f = new admin_guide_information(username);
+            f.Show();
+        }
     }
 }

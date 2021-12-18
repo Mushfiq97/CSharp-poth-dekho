@@ -84,5 +84,12 @@ namespace Poth_Dekho
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            admin_login f = new admin_login();
+            f.Show();
+        }
     }
 }

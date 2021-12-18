@@ -87,5 +87,12 @@ namespace Poth_Dekho
             home f = new home();
             f.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Admin_Reg f = new Admin_Reg();
+            f.Show();
+        }
     }
 }

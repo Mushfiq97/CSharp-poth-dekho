@@ -65,6 +65,7 @@ namespace Poth_Dekho
             this.btnTourGuide.TabIndex = 25;
             this.btnTourGuide.Text = "Tour Guide";
             this.btnTourGuide.UseVisualStyleBackColor = false;
+            this.btnTourGuide.Click += new System.EventHandler(this.btnTourGuide_Click);
             // 
             // btnTraveller
             // 
@@ -145,6 +146,7 @@ namespace Poth_Dekho
             this.button6.TabIndex = 33;
             this.button6.Text = "Logout";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // admin_dashboard
             // 
