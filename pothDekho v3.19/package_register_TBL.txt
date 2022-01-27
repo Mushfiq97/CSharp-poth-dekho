@@ -1,0 +1,20 @@
+USE [pothDB]
+GO
+
+/****** Object:  Table [dbo].[package_register_TBL]    Script Date: 18-Dec-21 12:23:24 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[package_register_TBL](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[travellerId] [nvarchar](50) NOT NULL,
+	[packageId] [nvarchar](50) NOT NULL,
+	[price] [nvarchar](50) NOT NULL,
+	[destination] [nvarchar](50) NOT NULL,
+	[duration] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+GO
+
